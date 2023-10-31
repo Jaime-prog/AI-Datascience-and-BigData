@@ -13,7 +13,7 @@ Las visualizaciones se crean utilizando el software Tableau para proporcionar in
 
 ## Creación de modelos de aprendizaje automático
 
-A partir de los datos estructurados de la canalización PySpark, esta sección entrena modelos de aprendizaje automático para realizar tareas como la predicción de valoraciones, la clasificación de textos, etc. Se utilizan modelos como la regresión lineal, los bosques aleatorios y SVM.
+Dada la naturaleza del problema abordado, consistente en la clasificación de reseñas en positivas o negativas, se determinó que se trataba de una tarea de clasificación binaria. Se optó por implementar un modelo de regresión logística para la predicción de la variable objetivo. Esta técnica supervisada permite predecir la probabilidad de que una instancia pertenezca a una categoría en particular, mediante la estimación de funciones logísticas aplicadas a las variables independientes.
 
 
 
